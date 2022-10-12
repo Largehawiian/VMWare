@@ -3,8 +3,9 @@
 A few functions I've put together the make reporting on VMWare VM's a bit easier to read
 All functions accept pipeline input
 #### Get-VMReport
-
-    Get-VM | Get-VMReport
+```powershell
+Get-VM | Get-VMReport
+```
 
 ```powershell
 Name                            NumCPU MemoryGB ProvisionedSpaceGB UsedSpaceGB Guest                                                     PowerState VMHost
@@ -15,7 +16,9 @@ Server                          2      4                        44          40 S
 ```
 
 #### Get-VMDiskReport
-    Get-VM | Get-VMDiskReport
+```powershell
+Get-VM | Get-VMDiskReport
+```
 ```powershell
 Name                            DriveLetter                   Capacity Used FreeSpace StoragePolicy
 ----                            -----------                  -------- ---- --------- -------------
