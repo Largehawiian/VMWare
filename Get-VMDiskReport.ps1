@@ -1,4 +1,4 @@
-function Get-VMReport {
+function Get-VMDiskReport {
     [CmdletBinding()]
     param(
         [parameter(ValueFromPipeline)]$InputObject
