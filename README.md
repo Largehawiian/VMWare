@@ -16,18 +16,18 @@ Server                          2      4                        44          40 S
 
 #### Get-VMDiskReport
 ```
-Name                            DriveLetter                                                                                   Capacity Used FreeSpace StoragePolicy
-----                            -----------                                                                                   -------- ---- --------- -------------
-VMware vCenter Server Appliance /                                                                                                   11    6         4 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/netdump                                                                                     1    0         1 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/autodeploy                                                                                 10    1         9 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/log                                                                                        10    3         6 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/dblog                                                                                      15    1        14 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/core                                                                                       24    1        23 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/imagebuilder                                                                               10    1         9 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/archive                                                                                    49   10        39 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/updatemgr                                                                                  98    5        93 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /boot                                                                                                0    0         0 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/db                                                                                         10    1         9 No Storage Policy or Disk is Partitioned
-VMware vCenter Server Appliance /storage/seat                                                                                       10    1         9 No Storage Policy or Disk is Partitioned
+Name                            DriveLetter                   Capacity Used FreeSpace StoragePolicy
+----                            -----------                  -------- ---- --------- -------------
+VMware vCenter Server Appliance /                                  11    6         4 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/netdump                    1    0         1 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/autodeploy                10    1         9 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/log                       10    3         6 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/dblog                     15    1        14 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/core                      24    1        23 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/imagebuilder              10    1         9 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/archive                   49   10        39 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/updatemgr                 98    5        93 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /boot                               0    0         0 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/db                        10    1         9 No Storage Policy or Disk is Partitioned
+VMware vCenter Server Appliance /storage/seat                      10    1         9 No Storage Policy or Disk is Partitioned
 ```
