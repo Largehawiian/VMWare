@@ -15,6 +15,7 @@ Server                          2      4                        44          40 S
 ```
 
 #### Get-VMDiskReport
+    Get-VM | Get-VMDiskReport
 ```
 Name                            DriveLetter                   Capacity Used FreeSpace StoragePolicy
 ----                            -----------                  -------- ---- --------- -------------
