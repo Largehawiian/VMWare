@@ -6,7 +6,7 @@ All functions accept pipeline input
 
     Get-VM | Get-VMReport
 
-```
+```powershell
 Name                            NumCPU MemoryGB ProvisionedSpaceGB UsedSpaceGB Guest                                                     PowerState VMHost
 ----                            ------ -------- ------------------ ----------- -----                                                     ---------- ------
 VMware vCenter Server Appliance 2      10                      290         290 VMware vCenter Server Appliance:VMware Photon OS (64-bit) PoweredOn  host02.lab.company
@@ -16,7 +16,7 @@ Server                          2      4                        44          40 S
 
 #### Get-VMDiskReport
     Get-VM | Get-VMDiskReport
-```
+```powershell
 Name                            DriveLetter                   Capacity Used FreeSpace StoragePolicy
 ----                            -----------                  -------- ---- --------- -------------
 VMware vCenter Server Appliance /                                  11    6         4 No Storage Policy or Disk is Partitioned
