@@ -25,7 +25,9 @@ function Get-VMDiskReport {
                 $i++
             }
         }
-        $Return.Add($Vm) | Out-Null
+        $vm | ForEach-Object {
+            $Return.Add($_) | Out-Null
+        }
     }
     end {
         return $Return
